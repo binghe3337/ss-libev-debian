@@ -9,11 +9,16 @@
 使用方法：
 使用root用户登录，运行以下命令：
 
-wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh
+wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/binghe3337/ss-libev-debian/master/shadowsocks-libev-debian.sh
+
 chmod +x shadowsocks-libev-debian.sh
+
 ./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
 
+
+
 卸载方法：
+
 使用 root 用户登录，运行以下命令：
 
 ./shadowsocks-libev-debian.sh uninstall
